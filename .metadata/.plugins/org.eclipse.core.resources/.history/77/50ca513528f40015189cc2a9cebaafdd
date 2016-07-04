@@ -1,0 +1,19 @@
+
+public class LastIndexOf {
+
+	public static void main(String[] args) {
+		String s1 = new String("Welcome to India!!");
+		int pos = s1.indexOf("India");
+		System.out.println(pos);
+		String sub = s1.substring(11);
+		System.out.println(sub);
+		int position = s1.lastIndexOf("India");
+		System.out.println(position);
+		String s2 = "White space       ";
+		System.out.println(s2.trim());
+		String s4 = "Welcome";
+		StringBuilder sb = new StringBuilder(s4);
+		System.out.println(sb.append(" to India!!!"));
+	}
+
+}
